@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb8189d0-3f41-4655-b54d-a5d20ddf64fb" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Animals/Camel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Animals/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Animals/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Animals/Donkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Animals/Hamster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Animals/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Animals/PackAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Animals/PetAnimal.java" afterDir="false" />
+    <list default="true" id="fb8189d0-3f41-4655-b54d-a5d20ddf64fb" name="Changes" comment="Animal classes created">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Animals/Commands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Animals/Species.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/Camel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/Camel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/Donkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/Donkey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/Hamster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/Hamster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/Horse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/PackAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/PackAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/PetAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/PetAnimal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -76,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681416683814</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Animal classes created">
+      <created>1681418902601</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681418902601</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +102,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Animal classes created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Animal classes created" />
   </component>
 </project>

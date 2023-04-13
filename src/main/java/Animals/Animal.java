@@ -8,10 +8,10 @@ public abstract class Animal {
     private String name;
     private String gender;
     private LocalDate birthday;
-    private ArrayList<String> commands;
-    private String species;
+    private ArrayList<Commands> commands;
+    private Species species;
 
-    public Animal(String name, String gender, LocalDate birthday, ArrayList<String> commands, String species) {
+    public Animal(String name, String gender, LocalDate birthday, ArrayList<Commands> commands, Species species) {
         this.name = name;
         this.gender = gender;
         this.birthday = birthday;
