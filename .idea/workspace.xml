@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb8189d0-3f41-4655-b54d-a5d20ddf64fb" name="Changes" comment="Animal classes created">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Animals/Commands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Animals/Species.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interface.java" afterDir="false" />
+    <list default="true" id="fb8189d0-3f41-4655-b54d-a5d20ddf64fb" name="Changes" comment="All classes created">
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/Camel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/Camel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/Donkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/Donkey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/Hamster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/Hamster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/Horse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/PackAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/PackAnimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/PetAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/PetAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Menagerie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Menagerie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,13 +43,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681418902601</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="All classes created">
+      <created>1681420450435</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681420450435</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +104,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Animal classes created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Animal classes created" />
+    <MESSAGE value="All classes created" />
+    <option name="LAST_COMMIT_MESSAGE" value="All classes created" />
   </component>
 </project>

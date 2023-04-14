@@ -21,14 +21,27 @@ public abstract class Animal {
 
     @Override
     public String toString() {
-        return new StringJoiner(", ", Animal.class.getSimpleName() + "[", "]")
-                .add("name='" + name + "'")
-                .add("gender='" + gender + "'")
-                .add("birthday=" + birthday)
-                .add("commands=" + commands)
-                .add("species='" + species + "'")
+        return new StringJoiner(", ", Animal.class.getSimpleName() + ": ", ";")
+                .add("name = " + name)
+                .add("gender = " + gender)
+                .add("birthday = " + birthday)
+                .add("commands = " + commands)
+                .add("species = " + species)
                 .toString();
     }
 
+
+
+    public void teachAnimal(Animal animal, Commands command){
+        animal.commands.add(command);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public ArrayList<Commands> getCommands() {
+        return commands;
+    }
 
 }
