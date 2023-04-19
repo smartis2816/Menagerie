@@ -38,11 +38,8 @@ public class Menagerie {
         }
     }
 
-    public void showCommands(String name){
-        for (Animal animal:menagerie) {
-            if (animal.getName().equals(name)){
-                System.out.println(name + " выполняет команды: " + animal.getCommands());
-            }
-        }
+    public void showCommands(Animal animal){
+        System.out.println(animal.getName() + " выполняет команды: " + animal.getCommands());
     }
+
 }

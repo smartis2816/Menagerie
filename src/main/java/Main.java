@@ -14,7 +14,7 @@ public class Main {
         addPackAnimals(menagerie);
         addPetAnimals(menagerie);
         menagerie.showMenagerie();
-        menagerie.showCommands("Толвохач");
+        //menagerie.showCommands("Толвохач");
     }
 
     public static void addPackAnimals(Menagerie menagerie) {
