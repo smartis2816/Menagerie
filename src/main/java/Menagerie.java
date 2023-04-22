@@ -14,14 +14,14 @@ public class Menagerie {
     }
 
     public Animal findAnimalByName(String name) {
+        Animal result = null;
         for (Animal animal : menagerie) {
             if (animal.getName().equals(name)) {
-                return animal;
-            } else {
-                System.out.println("В зверинце нет такого животного");
+                result = animal;
             }
         }
-        return null;
+        if (result == null) System.out.println("В зверинце нет такого животного");
+        return result;
     }
 
     public void del(Animal animal){

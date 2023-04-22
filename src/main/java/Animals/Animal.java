@@ -30,10 +30,8 @@ public abstract class Animal {
                 .toString();
     }
 
-
-
-    public void teachAnimal(Animal animal, Commands command){
-        animal.commands.add(command);
+    public void teachAnimal(Commands command){
+        this.commands.add(command);
     }
 
     public String getName() {

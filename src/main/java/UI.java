@@ -2,6 +2,7 @@ import Animals.*;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 import static Animals.Commands.*;
@@ -16,7 +17,7 @@ public class UI {
         scanner = new Scanner(System.in);
     }
 
-    public void run(){
+    public void run() {
         if (this.scanner != null) {
             int key;
             do {
@@ -43,13 +44,13 @@ public class UI {
                         System.out.println("Завершение работы программы...");
                         break;
                     default:
-                        System.out.println("Вы ввели неверный номер команды.\n");
+                        System.out.println("\nВы ввели неверный номер команды.\n");
                 }
             } while (key != 6);
         }
     }
 
-    public void printMenu(){
+    public void printMenu() {
         System.out.println("""
                 Доступные команды:
                 1. Показать всех животных в зверинце
@@ -61,7 +62,7 @@ public class UI {
                 """);
     }
 
-    private Animal getAnimal(){
+    private Animal getAnimal() {
         System.out.print("Введите имя животного: ");
         return menagerie.findAnimalByName(scanner.next());
     }
@@ -73,10 +74,46 @@ public class UI {
         }
     }
 
-    private void learnNewCommand() {
+    public void learnNewCommand() {
+        Animal animal = getAnimal();
+        if (animal == null) return;
+
+        System.out.println("Список доступных команд для изучения животным:");
+        ArrayList<Commands> newArr = new ArrayList<>(Arrays.asList(Commands.values()));
+        int count = 1;
+        for (int i = 0; i < newArr.size(); i++) {
+            System.out.println((i + 1) + ". " + newArr.get(i));
+        }
+
+        while (true) {
+            try {
+                System.out.println("Введите номер команды: ");
+                int choice = Integer.parseInt(scanner.next());
+                Commands newCom = newArr.get(choice - 1);
+                boolean alreadyKnows = false;
+                for (Commands command : animal.getCommands()) {
+                    if (newCom == command) {
+                        System.out.println("Животное уже знает такую команду.");
+                        alreadyKnows = true;
+                    }
+                }
+                if (!alreadyKnows) {
+                    animal.teachAnimal(newCom);
+                    System.out.println("Успешно!");
+                    break;
+                }
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+                System.out.println("Введены неверные данные. Повторите ввод.");
+            }
+        }
     }
 
     private void removeAnimal() {
+        Animal animal = getAnimal();
+        if (animal == null) return;
+        menagerie.del(animal);
+        System.out.println("Успешно!");
     }
 
     private void newAnimal() {

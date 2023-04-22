@@ -3,7 +3,6 @@ import Animals.*;
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.ArrayList;
-import java.util.Random;
 
 import static Animals.Commands.*;
 import static Animals.Species.*;
@@ -14,7 +13,8 @@ public class Main {
         addPackAnimals(menagerie);
         addPetAnimals(menagerie);
         menagerie.showMenagerie();
-        //menagerie.showCommands("Толвохач");
+        UI ui = new UI(menagerie);
+        ui.run();
     }
 
     public static void addPackAnimals(Menagerie menagerie) {
